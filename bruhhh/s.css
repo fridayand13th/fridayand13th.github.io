@@ -1,0 +1,429 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  height:auto;
+  width:fit-content;
+}
+.textwhite{
+  color: #fff !important;
+}
+body {
+background-color: rgb(96, 147, 158);
+height:auto;
+}
+#main{
+width:fit-content;
+
+
+}
+#header{
+  height: max-content;
+  background-color:black;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  
+}
+#div1 {
+  font-size:48px;
+  position: absolute;
+  left: 15px;
+  color: darkturquoise;
+}
+
+.hh{
+  height: 50px;
+    display: flex;
+    align-items: center;
+    /* margin-left: 15%; */
+    font-size: 3.5vw;
+    font-weight: 550;
+    width: 50%;
+    line-height: 1;
+    color: rgb(241, 244, 247);
+    position: relative;
+    left: 25%;
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0px; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.intro2_list_nhac  {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0px; /* Stay at the top */
+  left: 0;
+  background-color: rgb(63, 101, 118); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.intro2_wibu_list {
+  height: 0; /* 100% Full-height */
+  width: 100%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  bottom: 0px; /* Stay at the top */
+  right: 0;
+  background: linear-gradient(140deg, rgb(120, 169, 228),rgb(38, 23, 51)); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 0px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a,.intro2_wibu_list a {
+  
+  text-decoration: none;
+  font-size: 3vw;
+  color:  #1082ea;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (min-height: 1700px) {
+  #intro2{ margin-top: 50px;}
+  img{margin-top: 50px;}
+  #content{
+    left: 50%;
+    right: 50%;
+    width: 60%;
+  }
+}
+
+.containerlk {
+  display: grid;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+}
+.containerlk1 {
+  display: grid;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+    top: 5px;
+   padding-top: 1px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(117, 224, 245);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar11 {
+  transform: translate(0, 11px) rotate(-45deg);
+  background-color: rgb(117, 224, 245);
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+}
+
+.bar21 {opacity: 0;}
+
+ .bar31 {
+  transform: translate(0, -11px) rotate(45deg);
+  background-color: rgb(117, 224, 245);
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+}
+
+#content_intro{
+  height: 100%;
+  width: 100%;
+}
+.slideshow-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-height: 500px;
+  position: relative;
+  margin-top: 190px;
+}
+.slideshow-container2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-height: 500px;
+  position: relative;
+  margin-top: 40px;
+  width: initial;
+}
+#firsttl{
+  position: absolute;
+  top: 60px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #fff;
+  font-weight: 600;
+  background: linear-gradient(140deg, rgb(17, 46, 80),rgb(95, 86, 102));
+  font-size: 3vw;
+}
+.managa{
+  height: fit-content;
+  width: inherit;
+  background: linear-gradient(75deg,rgb(0,1,2),rgb(88, 96, 99));
+}
+.pp{
+  position: relative;
+  left: 1%;
+  font-size: 2vw;
+  font-weight: 600;
+}
+.h22{
+  color: #f1f1f1;
+  position: absolute;
+  left: 35%;
+  top: 6%;
+}
+/* Hide the images by default */
+.mySlides1, .mySlides2 {display: none}
+
+
+/* Slideshow container */
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 6%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  right: 50px;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+ 
+  color: black;
+}
+/* On hover, add a black background color with a little bit see-through */
+
+.imgea{
+ width: 30%;
+ height: 30vw;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 2vw;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50%;
+  width: inherit;
+  left: 35%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #241a49;
+  font-size: 2vw;
+  padding: 8px 12px;
+  position: absolute;
+  top: -50px;
+}
+.numbertext2 {
+  color: #241a49;
+  font-size: 2vw;
+  padding: 8px 12px;
+  position: absolute;
+  top: -380px;
+}
+
+/* The dots/bullets/indicators */
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+#content{
+top: 40px;
+position: absolute;
+margin-top: 10px;
+margin-bottom: 10px;
+background: linear-gradient(180deg, rgb(120, 169, 228),rgb(95 77 111));
+height: 100%;
+width: 100%;
+}
+#intro1{
+  position: absolute;
+  top: 70px;
+  font-size: 2vw;
+  padding-left: 16px;
+  
+}
+#intro2{
+  position: absolute;
+  font-size: 2vw;
+  top:30%;
+  padding-left: 51%;
+  color: rgb(7, 0, 3);
+  
+}
+#dh1,#dh2{
+  color: rgb(172, 185, 238);
+  cursor: pointer;
+  font-size: 2vw;
+  font-weight: 600;
+}
+#nhacvu{
+  background: linear-gradient(132deg, rgb(165, 164, 213) 0%, rgb(18, 14, 24) 100%);
+  
+}
+#gt{
+  
+  font-size: 3vw;
+  padding-top:60px;
+  position: absolute;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #fff;
+  font-weight: 600;
+  background: linear-gradient(140deg, rgb(120, 169, 228),rgb(38, 23, 51));
+}
+#n{
+  margin-left: 5%;
+  margin-bottom: 5%;
+  
+}
+.ol1{
+  background: linear-gradient(140deg, rgb(120, 169, 228),rgb(38, 23, 51));
+}
+.n1{
+  margin-top: 25%;
+}
+.nn{
+  margin-left: 5%;
+    margin-bottom: 2%;
+    border-style: solid;
+    
+    border-color: cornsilk;
+    margin-right: 5%;
+}
+.imge{
+  width: 8vw;
+  height: 8vw;
+}
+.p{
+  color: #f1f1f1;
+  
+}
+li{
+  color: #111;
+  font-size: 2vw;
+}
+a:link{
+  text-decoration: none;
+}
+.hn{
+  color: #fff;
+}
+
+.contact{
+  background: linear-gradient(0deg, rgb(120, 169, 228),rgb(95 77 111));
+  position: relative;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+.cot{
+  font-size: 2vw;
+  position: absolute;
+  margin-top: 20px;
+}
+.cot1{
+  top: 20%;
+
+}
+.cot2{
+ top: 40%;
+}
+
+.b{
+  border-style: outset;
+    width: 270px;
+    height: 50px;
+    background: linear-gradient(45deg, rgb(55 91 203), rgb(113 166 177));
+    border-color: black;
+}
+#content_job{
+  position: absolute;
+  top: 50%;
+
+}
+#demo {
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  bottom: 0;
+}
+.dn{
+  position: absolute;
+  font-size: 3vw;
+  bottom: 20%;
+}
+
+
